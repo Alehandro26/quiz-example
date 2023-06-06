@@ -1,0 +1,39 @@
+{
+    "logo": "https://nescafe.ru/sites/default/files/2020-08/nescafe-white.svg",
+    "image": "https://nutstime.ru/wp-content/uploads/2020/01/coffee-kofe-kapuchino-penka-zerna-chashka.jpg",
+    "imageGame": "https://i.ibb.co/DPJS3q7/coffee-bgr.jpg",
+    "description": "и получите бонус от Nescafé",
+    "bonuses": [{
+        "image": "https://nescafe.ru/themes/custom/nescafe_design_refresh/img/nescafe-small-logo.svg",
+        "text": "Запас кофе<br />на&nbsp;4 месяца"
+      },
+      {
+        "image": "https://nescafe.ru/themes/custom/nescafe_design_refresh/img/nescafe-small-logo.svg",
+        "text": "Кофемашина<br />от Nescafé"
+      }
+    ],
+    "test": [
+      {
+        "question": "Какой кофе любите?",
+        "answers": ["Растовримый", "Молотый"]
+      },
+      {
+        "question": "Какой вид кофе вы предпочитаете?",
+        "answers": [
+          "Американо",
+          "Капучино",
+          "Латте",
+          "Мокко",
+          "Раф",
+          "Гляссе",
+          "Макиато"
+        ]
+      },
+      {
+        "question": "Сколько чашек кофе вы пьёте за день?",
+        "answers": ["1-2", "3-5", "Более 5", "Очень редко/Не пью"]
+      }
+    ],
+    "link": "https://nescafe.ru/",
+    "disclaimer": "ООО «НЕСТЛЕ РОССИЯ» 2023"
+  }
