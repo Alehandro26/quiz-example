@@ -275,7 +275,7 @@ export default {
       background: linear-gradient(90deg, hsla(0, 0%, 100%, 0.1) 10%, hsla(0, 0%, 100%, 0.2) 20%, hsla(0, 0%, 100%, 0.6));
       width: 20px;
       transform: skewX(-45deg);
-      left: -20%;
+      left: -30%;
       animation: blick 4s infinite;
     }
   }
@@ -382,11 +382,11 @@ export default {
 
 @keyframes blick {
   from {
-    transform: translateX(-400px) skewX(-45deg);
+    left: -30%;
   }
 
   to {
-    transform: translateX(400px) skewX(-45deg);
+    left: 130%;
   }
 }
 </style>
