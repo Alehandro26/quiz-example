@@ -182,7 +182,8 @@ export default {
 
     @media @tablet {
       max-width: none;
-      height: 100vh;
+      min-height: 100vh;
+      border-radius: 0;
     }
   }
 
@@ -203,6 +204,10 @@ export default {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media @tablet {
+      padding-bottom: 120px;
+    }
   }
 
   &__answer {
